@@ -1,18 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway&family=Roboto&display=swap');
 
 :root {
-    --primary-color: #024e76;
-    --secondary-color: #fce138;
-    --accent1-color: #39a6b2;
-    --accent2-color: #fce138;
+    --primary-color: #FCA311;
+    --secondary-color: #000000;
+    --accent1-color: #14213D;
+    --accent2-color: #E5E5E5;
 
-    --heading-font: 'Raleway', serif;
-    --paragraph-font: 'Roboto', serif;
+    --heading-font: 'Raleway', sans-serif;
+    --paragraph-font: 'Roboto', sans-serif;
 
-    --nav-background-color: #fce138;
-    --nav-link-color: #024e76;
-    --nav-hover-link-color: #39a6b2;
-    --nav-hover-background-color: #39a6b2;
+    --nav-background-color: #14213D;
+    --nav-link-color: #FFFFFF;
+    --nav-hover-link-color: #FFFFFF;
+    --nav-hover-background-color: #FCA311;
 
 }
 
