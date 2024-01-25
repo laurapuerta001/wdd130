@@ -12,8 +12,13 @@ aside {
     background-color: #eee;
     color: #333;
     text-align: center;
+    position: relative;
 }
 
+aside h2 {
+    position: static;
+    margin-bottom: 10px;
+}
 
 aside img {
     width: 200px;
