@@ -32,12 +32,48 @@ header {
     background-color: var(--primary-color);
 }
 
+header img {
+    float: left;
+    margin-right: 20px;
+}
+
+header nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+header nav li {
+    float: left;
+}
+
+header nav a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+header nav a:hover {
+    background-color: var(--accent1-color);
+    color: var(--accent2-color);
+}
+
+/* Hero styles */
+.hero {
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    grid-gap: 20px;
+}
 p {
     padding: 25px;
 }
 
-.hero {
+.hero div{
     position: relative;
+    width: 100%;
 }
 
 .hero h1{
@@ -46,18 +82,24 @@ p {
 
 .hero article{
     position: absolute;
+    width: 50%;
 }
 
-.hero img {
-    display: block;
-    width: 100%;
-    height: auto;
+.hero img{
+    width: 50%;
+    height: 100%;
+    object-fit: cover;
 }
 
 .sociallinks img{
     width: 25px;
 }
 
-.rafting-images {
+.second-section img{
     width: 100px;
+}
+
+/* Main content styles */
+main {
+    padding: 20px;
 }
