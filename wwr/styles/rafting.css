@@ -61,17 +61,12 @@ header nav a:hover {
     color: var(--accent2-color);
 }
 
-/* Hero styles */
-.hero {
-    display: grid;
-    grid-template-columns: 1fr 3fr 1fr;
-    grid-gap: 20px;
-}
+
 p {
     padding: 25px;
 }
 
-.hero div{
+.hero{
     position: relative;
     width: 100%;
 }
@@ -91,6 +86,13 @@ p {
     object-fit: cover;
 }
 
+article img {
+    float: right;
+    position: absolute;
+    width: 50%;
+    height: 100%;
+}
+
 .sociallinks img{
     width: 25px;
 }
@@ -102,4 +104,5 @@ p {
 /* Main content styles */
 main {
     padding: 20px;
+    position: relative;
 }
