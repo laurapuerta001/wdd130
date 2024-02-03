@@ -68,42 +68,64 @@ p {
 
 .hero {
     position: relative;
-    width: 100%;
-    background-color: var(--secondary-color);
-    height: 400px;
-    background-size: cover;
 }
 
 .hero h1{
-    position: absolute;
     top: 0;
     display: flex;
     text-align: center;
     justify-content: center;
     width: 100%;
+    padding: 20px;
 }
 
 .hero-article {
     display: grid;
-    grid-template-columns: 50% 50%;
-    grid-column-gap: 10px;
-    grid-row-gap: 10px;
+    grid-template-columns: 75% 25%;
     padding: 20px;
+    background-color: #FCA311;
 }
 
 .hero-article p{
     color: white;
-    position: absolute;
-}
-
-.hero-article img{
-    width: 100%;
-    right: 0;
 }
 
 .hero img{
-    width: 50%;
-    object-fit: cover;
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    align-content: center;
+}
+
+.first-section {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 100px 200px;
+    background-color: var(--accent1-color);
+    color: white;
+}
+
+.first-section p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.first-section img{
+    display: flex;
+    align-items: center;
+    justify-items: center;
+}
+
+.first-section h2{
+    display: flex;
+    grid-column: 1/4;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }
 
 .second-section {
