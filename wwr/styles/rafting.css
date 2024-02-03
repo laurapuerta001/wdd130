@@ -118,6 +118,7 @@ p {
     display: flex;
     align-items: center;
     justify-items: center;
+    width: 100px;
 }
 
 .first-section h2{
@@ -158,6 +159,10 @@ main {
 .grid-header {
     display: grid;
     grid-template-columns: 20% 80%;
+}
+
+.grid-header img{
+    width: 120px;
 }
 
 .navigation {
