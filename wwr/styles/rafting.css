@@ -66,31 +66,44 @@ p {
     padding: 25px;
 }
 
-.hero{
+.hero {
     position: relative;
+    width: 100%;
+    background-color: var(--secondary-color);
+    height: 400px;
+    background-size: cover;
+}
+
+.hero h1{
+    position: absolute;
+    top: 0;
+    display: flex;
+    text-align: center;
+    justify-content: center;
     width: 100%;
 }
 
-.hero .h1{
+.hero-article {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+    padding: 20px;
+}
+
+.hero-article p{
+    color: white;
     position: absolute;
 }
 
-.hero .article{
-    position: absolute;
-    width: 50%;
+.hero-article img{
+    width: 100%;
+    right: 0;
 }
 
-.hero .img{
+.hero img{
     width: 50%;
-    height: 100%;
     object-fit: cover;
-}
-
-.article img {
-    float: right;
-    position: absolute;
-    width: 50%;
-    height: 100%;
 }
 
 .second-section {
