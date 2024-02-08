@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&family=Roboto&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    color: #14213D;
+    margin: 10px;
+}
+
+h1 {
+    text-align: left;
+    font-size: 1.5rem;
+    padding: 1rem;
+}
+
+form {
+    width: 500px;    
+    margin: 10px;
+    padding: 1rem;
+    border: 1px solid rgba(0, 0, 0,0.2);
+    background-color: #A8BEFC;
+    border-radius: 0.5rem;
+    display: grid;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+fieldset {
+    display: grid;
+    grid-gap: 5px;
+    border-radius: 0.5rem;
+    border-color: #14213D;
+    padding: 5px;
+    box-shadow: none;
+}
+
+legend {
+    text-align: center;
+    font-size: 1.2rem;
+    color: #14213D;
+}
+
+label, input, button, select, textarea {
+    font-family: 'Raleway', sans-serif;
+}
+
+label {
+    text-align: right;
+    padding-right: 10px;
+}
+
+input, select, textarea {
+    padding: 5px;
+    font-size: small;
+    border-radius: 0.5rem;
+    border-color: #14213D;
+    box-shadow: none;
+}
+
+input[type="checkbox"] {
+    width: 15px;
+    height: 15px;
+    vertical-align: bottom;
+}
+
+button {
+    background-color: #14213D;
+    color: white;
+    padding: 5px;
+    border-radius: 0.5rem;
+    font-size: 1.2rem;
+    border: none;
+    margin: 1rem;
+}
+
+button:hover {
+    background-color: #FCA311;
+}
+
+footer {
+    text-align: center;
+    margin: 10px;
+}
+
+.form-item {
+    display: grid;
+    align-items: center;
+}
+
+.column1 {
+    grid-template-columns: 3fr 1fr;
+}
+
+.column2 {
+    grid-template-columns: 1fr 2fr;
+}
