@@ -201,3 +201,85 @@ main {
 .sociallinks a{
     text-decoration: none;
 }
+
+iframe {
+    border:0;
+}
+
+
+.contact-information {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+.team-members {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.team-members img {
+    width: 200px;
+    height: auto;
+    border: 1px solid steelblue;
+    padding: 2px;
+    box-shadow: 0 0 30px gray;
+}
+
+.contact-form {
+    width: 800px;    
+    margin: 10px;
+    padding: 1rem;
+    border: 1px solid rgba(0, 0, 0,0.2);
+    background-color: #A8BEFC;
+    border-radius: 0.5rem;
+    display: grid;
+    justify-content: space-around;
+    align-items: center;
+}
+
+label, input, button, select, textarea {
+    font-family: 'Raleway', sans-serif;
+}
+
+label {
+    text-align: right;
+    padding-right: 10px;
+}
+
+input, select, textarea {
+    padding: 5px;
+    font-size: small;
+    border-radius: 0.5rem;
+    border-color: #14213D;
+    box-shadow: none;
+}
+
+input[type="checkbox"] {
+    width: 15px;
+    height: 15px;
+    vertical-align: bottom;
+}
+
+button {
+    background-color: #14213D;
+    color: white;
+    padding: 5px;
+    border-radius: 0.5rem;
+    font-size: 1.2rem;
+    border: none;
+    margin: 1rem;
+}
+
+button:hover {
+    background-color: #FCA311;
+}
+
+.form-item {
+    display: grid;
+    align-items: center;
+    grid-template-columns: 1fr;
+}
