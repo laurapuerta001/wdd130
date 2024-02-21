@@ -305,6 +305,7 @@ button:hover {
     border: 1px solid #ddd;
     border-radius: 8px;
     background-color: #f9f9f9;
+    margin-top: 20px;
 }
 
 .grid-item img {
@@ -312,4 +313,82 @@ button:hover {
     height: auto;
     border-radius: 4px;
     margin-bottom: 10px;
+}
+
+.trip {
+    border: 1px solid #ddd;
+    padding: 15px;
+    border-radius: 8px;
+}
+
+.trip img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 4px;
+    margin-bottom: 10px;
+}
+
+.grid-container-trips {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+    padding: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #14213D;
+    color: white;
+}
+
+.button-link {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    background-color: #14213D;
+    color: #fff;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+/* Hover Effect */
+.button-link:hover {
+    background-color: #FCA311;
+}
+
+.image-container {
+    position: relative;
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* Styling for the Image */
+.image-container img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Styling for the Heading Overlay */
+.heading-overlay {
+    position: absolute;
+    top: 10%;
+    right: 30%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
 }
