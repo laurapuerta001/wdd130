@@ -18,8 +18,6 @@
 
 body {
     font-family: var(--paragraph-font);
-    max-width: 960px;
-    padding: 20px;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -152,7 +150,6 @@ p {
 
 /* Main content styles */
 main {
-    padding: 20px;
     position: relative;
 }
 
@@ -294,4 +291,25 @@ button:hover {
     display: grid;
     align-items: center;
     grid-template-columns: 1fr;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+    padding: 20px;
+}
+
+.grid-item {
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+}
+
+.grid-item img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 4px;
+    margin-bottom: 10px;
 }
